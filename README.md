@@ -5,8 +5,8 @@ Structured Data
 * Housing prices prediction using XGBoost
 * Housing Prices prediction using Neural Networks
 
-Computer Vision
+Computer Vision Tasks
 * Digit recognition using CNN
 
-NLP
+NLP Tasks
 * Research paper classification (multilabel text classification)
