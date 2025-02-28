@@ -6,7 +6,7 @@
 * [Housing Prices prediction using Neural Networks](https://github.com/SurawutK/Kaggle-Projects/blob/main/housing-prices-predictions-neural-networks/neural_network_model_for_house_prices_pytorch.ipynb)
 
 ## Computer Vision Tasks
-* [Digit recognition using CNN](https://github.com/SurawutK/Kaggle-Projects/blob/main/digits-recognition-cnn/mnist_digit_recognition_using_cnn_pytorch.ipynb)
+* [Digits recognition using CNN](https://github.com/SurawutK/Kaggle-Projects/blob/main/digits-recognition-cnn/mnist_digit_recognition_using_cnn_pytorch.ipynb)
 
 ## NLP Tasks
 * [Research paper classification (multilabel text classification)](https://github.com/SurawutK/Kaggle-Projects/blob/main/research-paper-text-classification/multi_label_text_classification_scopus_dataset.ipynb)
