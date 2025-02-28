@@ -10,12 +10,31 @@ The provided data comprises the papers' abstracts, titles, and labels.
 
 ## Evaluation
 
-The evaluation matrix for public and private ranking is macro f1-score, which is described as follows:
-F1macro=1N∑i=1NF1i
-Where N is the number of classes.
-For each class, treat it as the positive class and group all the other classes as the negative class. Calculate the F1-score for this binary classification.
-F1i=2×Precisioni×RecalliPrecisioni+Recalli
-Precision - The ratio of correctly predicted positive observations to the total predicted positives.
-Precisioni=TPiTPi+FPi
-Recall (or Sensitivity or True Positive Rate) - The ratio of correctly predicted positive observations to all the actual positives.
-Recalli=TPiTPi+FNi
+# Evaluation
+
+The evaluation metric for public and private ranking is **macro F1-score**, which is described as follows:
+
+\[
+F1_{macro} = \frac{1}{N} \sum_{i=1}^{N} F1_i
+\]
+
+Where **N** is the number of classes.
+
+For each class, treat it as the positive class and group all the other classes as the negative class. Calculate the **F1-score** for this binary classification:
+
+\[
+F1_i = \frac{2 \times Precision_i \times Recall_i}{Precision_i + Recall_i}
+\]
+
+- **Precision** - The ratio of correctly predicted positive observations to the total predicted positives.
+
+\[
+Precision_i = \frac{TP_i}{TP_i + FP_i}
+\]
+
+- **Recall** (or **Sensitivity** or **True Positive Rate**) - The ratio of correctly predicted positive observations to all the actual positives.
+
+\[
+Recall_i = \frac{TP_i}{TP_i + FN_i}
+\]
+
