@@ -14,9 +14,7 @@ The provided data comprises the papers' abstracts, titles, and labels.
 
 The evaluation metric for public and private ranking is **macro F1-score**, which is described as follows:
 
-\[
 F1_{macro} = \frac{1}{N} \sum_{i=1}^{N} F1_i
-\]
 
 Where **N** is the number of classes.
 
