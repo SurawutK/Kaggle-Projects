@@ -10,8 +10,6 @@ The provided data comprises the papers' abstracts, titles, and labels.
 
 ## Evaluation
 
-# Evaluation
-
 The evaluation metric for public and private ranking is **macro F1-score**, which is described as follows:
 
 **F1_macro** = (1 / N) * Σ F1ᵢ  (for i = 1 to N)
