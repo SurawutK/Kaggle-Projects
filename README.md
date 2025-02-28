@@ -1,7 +1,7 @@
 # Kaggle Machine Learning and Deep Learning Projects
 
 ## Structured Data
-* Titanic survival prediction['https://github.com/SurawutK/Kaggle-Projects/blob/main/titanic-survival-prediction/titanic_binary_classification_problem.ipynb']
+* 'https://github.com/SurawutK/Kaggle-Projects/blob/main/titanic-survival-prediction/titanic_binary_classification_problem.ipynb'('Titanic survival prediction')
 * Housing prices prediction using XGBoost
 * Housing Prices prediction using Neural Networks
 
