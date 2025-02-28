@@ -14,25 +14,21 @@ The provided data comprises the papers' abstracts, titles, and labels.
 
 The evaluation metric for public and private ranking is **macro F1-score**, which is described as follows:
 
-F1_{macro} = \frac{1}{N} \sum_{i=1}^{N} F1_i
+**F1_macro** = (1 / N) * Σ F1ᵢ  (for i = 1 to N)
 
 Where **N** is the number of classes.
 
-For each class, treat it as the positive class and group all the other classes as the negative class. Calculate the **F1-score** for this binary classification:
+For each class, treat it as the positive class and group all the other classes as the negative class.  
+Calculate the **F1-score** for this binary classification:
 
-\[
-F1_i = \frac{2 \times Precision_i \times Recall_i}{Precision_i + Recall_i}
-\]
+**F1ᵢ** = (2 × Precisionᵢ × Recallᵢ) / (Precisionᵢ + Recallᵢ)
 
 - **Precision** - The ratio of correctly predicted positive observations to the total predicted positives.
 
-\[
-Precision_i = \frac{TP_i}{TP_i + FP_i}
-\]
+  **Precisionᵢ** = TPᵢ / (TPᵢ + FPᵢ)
 
 - **Recall** (or **Sensitivity** or **True Positive Rate**) - The ratio of correctly predicted positive observations to all the actual positives.
 
-\[
-Recall_i = \frac{TP_i}{TP_i + FN_i}
-\]
+  **Recallᵢ** = TPᵢ / (TPᵢ + FNᵢ)
+
 
