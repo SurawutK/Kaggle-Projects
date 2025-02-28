@@ -1,1 +1,1 @@
-# Kaggle-Projects
+# Kaggle Machine Learning and Deep Learning Projects
