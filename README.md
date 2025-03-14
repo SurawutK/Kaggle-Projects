@@ -1,4 +1,4 @@
-# Kaggle Machine Learning and Deep Learning Projects
+# Kaggle Machine Learning Projects
 
 ## Structured Data
 * [Titanic survival prediction](https://github.com/SurawutK/Kaggle-Projects/blob/main/titanic-survival-prediction/titanic_binary_classification_problem.ipynb)
